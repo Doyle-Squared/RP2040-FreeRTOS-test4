@@ -4,6 +4,8 @@ Minimal FreeRTOS boilerplate for the Pico (Raspberry Pi Pico 2040) with a single
 
 If you are using WSL or are building to a Wireless Pico, follow the steps at the end. Else, Ignore Steps 5-6
 
+There are no instructions for plain Windows too. Only Mac, Linux and Windows Subsystem for Linux. 
+
 ## Why this is minimal (somewhat)
 
 - One app source file: `rp2040-freertos/src/main.c`
