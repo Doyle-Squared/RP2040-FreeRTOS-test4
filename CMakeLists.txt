@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.12)
+set(PICO_BOARD pico)
+#set(PICO_BOARD pico_w) #FOR PICO W ONLY
 
 # Name project
-SET(ProjectName rp2040-freertos-template)
+SET(ProjectName rp2040-freertos)
 
 # Set any variables required for importing libraries
 SET(FREERTOS_KERNEL_PATH ${CMAKE_CURRENT_SOURCE_DIR}/lib/FreeRTOS-Kernel)
