@@ -7,7 +7,7 @@
 
 void led_task()
 {
-    Blinker code for the regular Pico
+    //Blinker code for the regular Pico
     const uint LED_PIN = PICO_DEFAULT_LED_PIN;
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
